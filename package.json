@@ -1,0 +1,28 @@
+{
+	"author": "Recime Inc. <admin@recime.io>",
+	"dependencies": {
+		"recime-bot-extension": "^1.3.5"
+	},
+	"description": "Recime Bot Description",
+	"devDependencies": {
+		"babel-core": "^6.24.1",
+		"babel-preset-env": "^1.5.1",
+		"eslint": "^4.1.0",
+		"glob": "^7.1.2"
+	},
+	"engines": {
+		"node": "6.1.0"
+	},
+	"keywords": [
+		"Recime",
+		"Bot"
+	],
+	"license": "MIT",
+	"main": "main.js",
+	"name": "recime-bot",
+	"scripts": {
+		"build": "node -e \"require('./scripts/build')()\""
+	},
+	"title": "Recime Bot",
+	"version": "1.0.1"
+}
